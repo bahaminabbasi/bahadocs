@@ -19,4 +19,7 @@
 ### To view the commit history with a one-line summary of each commit:
     git log --oneline
 
+### Only the last commit
+git diff HEAD~1 HEAD -- clinics/models.py
+
 
